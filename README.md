@@ -1,1 +1,1 @@
-Namaste React;
+Namast React;
