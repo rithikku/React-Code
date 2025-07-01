@@ -1,3 +1,6 @@
+import React from "react"; // importing react
+import ReactDOM from "react-dom/client"; // importing react Dom
+
 // const heading = React.createElement("h1", 
 //      {id:"heading", xyz: "abc"}, 
 //      "Welcome to React!");
@@ -16,15 +19,15 @@
 
 const parent = React.createElement("div", {id:"parent"}, 
     [React.createElement("div", {id:"children"}, [
-        React.createElement("h1", {}, "i'm H1 Tag!"), 
-        React.createElement("h2", {}, "I'm H2 Tag!"),
+        React.createElement("h1", {}, "This is a React!"), 
+        React.createElement("h2", {}, "This is Namaste React!"),
     ]),
     React.createElement("div", {id:"children2"}, [
         React.createElement("h1", {}, "i'm H1 Tag!"), 
         React.createElement("h2", {}, "I'm H2 Tag!"),
     ])
 ]);
-
+ 
 //JSX
 
 console.log(parent); // object

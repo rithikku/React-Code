@@ -1,0 +1,29 @@
+{
+  "name": "react-code",
+  "version": "1.0.0",
+  "description": "This is React by Rithik",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rithikku/React-Code.git"
+  },
+  "keywords": [],
+  "author": "Rithik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rithikku/React-Code/issues"
+  },
+  "homepage": "https://github.com/rithikku/React-Code#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browsersList": [
+    "last 2 versions"
+  ]
+}
